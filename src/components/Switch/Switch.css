@@ -1,0 +1,39 @@
+
+.switch-background {
+  background-color: rgb(237, 235, 234);
+  border-radius: 40px;
+  width: 60px;
+  height: 30px;
+
+  -webkit-transition: all 0.3s 0.1s ease-in-out;
+  -moz-transition: all 0.2s 0.1s ease-in-out;
+  -o-transition: all 0.3s 0.1s ease-in-out;
+  transition: all 0.3s 0.1s ease-in-out;
+}
+
+.switch-background.active {
+  background-color: lightblue;
+}
+
+.switch-button {
+  background-color: rgb(72, 72, 72);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border-style: none;
+  cursor: pointer;
+
+  -webkit-transition: all 0.3s 0.1s ease-in-out;
+  -moz-transition: all 0.2s 0.1s ease-in-out;
+  -o-transition: all 0.3s 0.1s ease-in-out;
+  transition: all 0.3s 0.1s ease-in-out;
+}
+
+.switch-button.clicked {
+  transform: translateX(30px);
+}
+
+.switch-button.clicked.active {
+  background-color: blue;
+}
+
